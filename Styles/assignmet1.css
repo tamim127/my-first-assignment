@@ -166,3 +166,86 @@ div li a {
     text-decoration: none;
     color: #8987A1;
 }
+
+/* Users’ Feedback Section */
+
+.card-body {
+    max-width: 1140px;
+    padding: 0;
+    margin: 137px auto;
+}
+
+.card-header {
+    font-weight: bold;
+    font-size: 42px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.all-card {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.cards {
+    background-color: white;
+    border: 1px solid #D6DDED;
+    border-radius: 14px;
+    padding: 24px;
+    width: 366.67px;
+    /* height: 243px;  */
+}
+
+.star-icon {
+    display: flex;
+    gap: 4px;
+    width: 116px;
+    height: 20px;
+    margin-bottom: 24px;
+}
+
+.star-icon img {
+    width: 20px;
+    height: 20px;
+}
+
+.card-title {
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 8px;
+    color: #111111;
+}
+
+.card-description {
+    font-size: 18px;
+    color: #12171f;
+    margin-bottom: 24px;
+}
+
+.reviewer {
+    display: flex;
+    align-items: center;
+    margin-top: auto;
+}
+
+.reviewer img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 12px;
+    
+}
+
+.reviewer-info .name {
+    font-weight: bold;
+    font-size: 18px;
+    color: #111827;
+    margin-bottom: 2px;
+}
+
+.reviewer-info .date {
+    font-size: 18px;
+    color: #8987A1;
+}
+
