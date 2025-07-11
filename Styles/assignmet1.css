@@ -56,3 +56,36 @@ nav ul li {
 
 
 }
+
+/* action section */
+ 
+.div-action {
+    display: flex;
+    max-width: 1140px;
+    height: 328px;
+    margin: 100px auto;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.left-section {
+    max-width: 517px;
+    height: 203px;
+    padding: 62.5px 220px 62.5px 0;
+    line-height: 23px;
+
+}
+
+.right-section {
+    max-width: 403px;
+    height: 328px;
+    border-radius: 48px;
+    margin-left: 159px;
+
+}
+
+.wc-title {
+    font-weight: bold;
+    font-size: 42px;
+}
