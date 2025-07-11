@@ -308,3 +308,49 @@ textarea {
     font-size: 20px;
     
 }
+
+/* footer-section-styles */
+
+footer {
+    background-color: white;
+}
+
+.logo-text{
+    font-weight: 900;
+    font-size: 100px;
+    color: #4E47FF;
+    margin-bottom: 20px;
+
+}
+.f-content {
+
+    text-align: center;
+    padding: 105px 455px;
+    margin: 0 auto;
+    max-width: 531px;
+}
+
+div ul li {
+    list-style: none;
+
+}
+
+div li a {
+    text-decoration: none;
+    color: #8987A1;
+
+}
+
+.f-texts {
+    font-size: 16px;
+    color: #8987A1;
+}
+
+
+.f-menu {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+    margin: 0;
+    padding: 0;
+}
